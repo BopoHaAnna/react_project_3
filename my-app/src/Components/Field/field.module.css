@@ -1,0 +1,21 @@
+.field {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1px;
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.button {
+	width: 100px;
+	height: 100px;
+	font-size: 48px;
+	cursor: pointer;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	font-family: 'Comic Sans MS', sans-serif;
+}
+
+.button:hover {
+	background-color: #f0f0f0;
+}
